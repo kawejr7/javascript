@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+    <style>
+        body {
+            background-color: rgba(165, 42, 42, 0.884);
+        }
+        h1 {
+            width: 215px;
+            background-color: #fff;
+            color: #000;
+            text-align: center;
+            margin: auto;
+            margin-top: 30px;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        input {
+            padding: 3px;
+            display: block;
+            margin: auto;
+            margin-top: 15px;
+        }
+        
+        input > p {
+            color:#fff ;
+        }
+
+
+        p {
+            text-align: center;
+            color: #fff;
+        }
+
+        #res {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>País de origem</h1>
+    <p>Qual seu país de origem?</p> <input type="text" id="pais" class="t">
+    <input type="button" value="Escolher" onclick="escolher()" onmouseenter="trocar()">
+    <div id="res">
+
+    </div>
+    
+    <script>
+        function escolher() {
+            var paises = document.getElementById('pais')
+            var res = document.getElementById('res')
+            var resf = (paises.value)
+            if (resf == 'Brasil') {
+                res.innerHTML = 'Você é <strong>brasileiro</strong>!'
+            }else {
+                res.innerHTML = 'Você é <strong>estrangeiro!</strong>'
+                }
+        }
+    </script>
+</body>
+</html>

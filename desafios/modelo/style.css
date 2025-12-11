@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+    body {
+        background-color: rgb(50, 50, 50);
+    }
+    header {
+        font: bolder 1.4em sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    section {
+        background-color: #fff;
+        width: 500px;
+        height: 350px;
+        text-align: center;
+        margin: auto;
+        padding: 5px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 8px #0000003a;
+    }
+
+    footer > p {
+        font-style: italic;
+        text-align: center;
+    }
+
+    div#msg {
+        font: bold 1.25em Arial;
+        max-width: fit-content;
+        margin: auto;
+        margin-bottom: 5px;
+        padding: 5px;
+        border-radius: 8px;
+    }
+    div#imagem {
+        margin: auto;
+        width: 250px;
+        height: 250px;
+    }
+    .tenhaum {
+        font: bold 1em Arial;
+        text-align: center;
+        width: fit-content;
+        margin: auto;
+        margin-top: 10px;
+        padding: 3px;
+        border-radius: 8px;
+
+    }
+    .curso {
+        max-width: max-content;
+        margin: auto;
+        margin-top: 10px;
+        padding: 5px;
+        border-radius: 8px;
+    }
+
+    #title {
+        max-width: fit-content;
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 8px;
+        border-radius: 8px;
+    }

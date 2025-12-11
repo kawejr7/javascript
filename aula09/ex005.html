@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body {
+            background-color: #1651b2;
+            color: #fff;
+            font: normal 1em sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p name="nome">Nome</p>
+    <p class="classe">Classe</p>
+    <p>Seletor</p>
+    <div id="msg">Clique em mim</div>
+    <script>
+        var corpo = document.body
+        var title = document.getElementsByTagName('h1')[0]
+        var p1 = document.getElementsByTagName('p')[0]
+        var p2 = document.getElementsByName('nome')[0]
+        var p3 = document.getElementsByClassName('classe')[0]
+        var p4 = document.querySelectorAll('p')[3]
+        var p5 = document.getElementById('msg')
+        
+        title.style.width = '450px'
+        title.style.margin = 'auto'
+        title.style.background = '#000'
+        title.style.padding = '8px'
+        title.style.borderRadius = '5px'
+        title.style.textAlign = 'center'
+
+        p1.style.width = '170px'
+        p1.style.margin = 'auto'
+        p1.style.marginTop = '10px'
+        p1.style.background = 'green'
+        p1.style.padding = '8px'
+        p1.style.borderRadius = '5px'
+        p1.style.textAlign = 'center'
+
+        p2.style.width = '100px'
+        p2.style.margin = 'auto'
+        p2.style.marginTop = '10px'
+        p2.style.background = 'orange'
+        p2.style.padding = '8px'
+        p2.style.borderRadius = '5px'
+        p2.style.textAlign = 'center'
+        
+        p3.style.width = '100px'
+        p3.style.margin = 'auto'
+        p3.style.marginTop = '10px'
+        p3.style.background = 'gray'
+        p3.style.padding = '8px'
+        p3.style.borderRadius = '5px'
+        p3.style.textAlign = 'center'
+        
+        p4.style.width = '100px'
+        p4.style.margin = 'auto'
+        p4.style.marginTop = '10px'
+        p4.style.background = '#fff'
+        p4.style.color = '#000'
+        p4.style.padding = '8px'
+        p4.style.borderRadius = '5px'
+        p4.style.textAlign = 'center'
+
+        p5.style.width = '120px'
+        p5.style.margin = 'auto'
+        p5.style.marginTop = '10px'
+        p5.style.background = 'purple'
+        p5.style.padding = '8px'
+        p5.style.borderRadius = '5px'
+        p5.style.textAlign = 'center'
+
+        /*
+        p1.style.color = '#000'
+        corpo.style.background = 'Purple'
+        document.write(p1.innerHTML)
+        var d = document.getElementById('msg')
+        d.style.background = '#000'
+        d.innerText = 'Olá'
+        */
+
+    </script>
+</body>
+</html>
