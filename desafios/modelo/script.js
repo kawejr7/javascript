@@ -5,7 +5,7 @@ function carregar() {
     var tenhaum = document.getElementsByClassName('tenhaum')[0]
     var curso = document.getElementsByClassName('curso')[0]
     var data = new Date()
-    var hora = 13
+    var hora = data.getHours()
     msg.innerHTML = `Agora são ${hora} horas`
     if (hora >= 5 && hora < 12) {
         //Bom dia
