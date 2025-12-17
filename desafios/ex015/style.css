@@ -1,0 +1,26 @@
+body {
+    background: rgb(34, 94, 207);
+}
+
+header h1{
+    font: bold 2em Arial;
+    text-align: center;
+    color: #fff;
+}
+
+section {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+#res {
+    display: inline;
+}
+#foto {
+    display: block;
+}
+footer {
+    font: bolder 1em Arial;
+    text-align: center;
+    color: #fff;
+}
